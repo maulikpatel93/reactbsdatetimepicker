@@ -1,4 +1,0 @@
-*.js
-*/**
-!src/**
-src/**/private
