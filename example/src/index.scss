@@ -1,0 +1,58 @@
+@import "~bootstrap";
+@import "~font-awesome";
+// @import "~tempusdominus-bootstrap/build/css/tempusdominus-bootstrap.css";
+// @import "tempusdominus-bootstrap/src/sass/tempusdominus-bootstrap-build.scss";
+@import "~tempusdominus-bootstrap/src/sass/tempusdominus-bootstrap-build.scss"; // Or one of the above.
+@import "~prismjs/plugins/line-numbers/prism-line-numbers.css";
+@import "~prismjs/plugins/line-highlight/prism-line-highlight.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#root {
+  width: 100%;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+em {
+  display: block;
+  margin-top: 15px;
+}
+
+.prism-code {
+  max-width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 12px 14px -8px rgba(0, 0, 0, 0.275),
+    0px 16px 20px -12px rgba(0, 0, 0, 0.375);
+
+  pre,
+  pre[class*="language-"],
+  code[class*="language-"] {
+    margin: 0;
+    font-family: Menlo, Monaco, Consolas, "Andale Mono", "Ubuntu Mono",
+      monospace !important;
+  }
+
+  .token.operator,
+  .token.entity,
+  .token.url,
+  .language-css .token.string,
+  .style .token.string {
+    background: transparent;
+  }
+
+  .line-highlight {
+    box-shadow: inset 5px 0 0 #00bcd4;
+    background: hsla(0, 0%, 98%, 0.1);
+    background: linear-gradient(
+      to right,
+      rgba(173, 173, 173, 0.1) 70%,
+      rgba(153, 122, 102, 0)
+    );
+  }
+}

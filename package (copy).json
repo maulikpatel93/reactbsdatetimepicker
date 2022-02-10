@@ -1,0 +1,31 @@
+{
+  "name": "reactbsdatetimepicker",
+  "version": "1.0.0",
+  "description": "React,Bootstrap5.1.3,bs5,bootstrap5,bs5datetimepicker,bootstrap5datetimepicker,datetimepicker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maulikpatel93/reactbsdatetimepicker.git"
+  },
+  "keywords": [
+    "React",
+    "Bootstrap5.1.3",
+    "bs5",
+    "bootstrap5",
+    "bs5datetimepicker",
+    "bootstrap5datetimepicker",
+    "datetimepicker"
+  ],
+  "author": "Maulik Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maulikpatel93/reactbsdatetimepicker/issues"
+  },
+  "homepage": "https://github.com/maulikpatel93/reactbsdatetimepicker#readme",
+  "dependencies": {
+    "reactbsdatetimepicker": "^1.0.0"
+  }
+}
